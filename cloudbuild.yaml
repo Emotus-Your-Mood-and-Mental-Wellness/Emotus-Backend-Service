@@ -8,3 +8,4 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/my-mood-api'
+
