@@ -1,0 +1,8 @@
+__pycache__
+.git
+.env
+.idea
+*.pyc
+*.pyo
+.dockerignore
+node_modules
