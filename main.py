@@ -95,11 +95,11 @@ class MoodPredictionService:
             stress_level = 'medium'
 
         current_hour = datetime.now().hour
-        if current_hour < 10:
+        if current_hour < 18:
             time_of_day = 'morning'
-        elif 10 <= current_hour < 14:
+        elif 18 <= current_hour < 22:
             time_of_day = 'afternoon'
-        elif 14 <= current_hour < 20:
+        elif 22 <= current_hour < 4:
             time_of_day = 'evening'
         else:
             time_of_day = 'night'
